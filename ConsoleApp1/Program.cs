@@ -23,6 +23,7 @@ namespace hangman
                 hiddenWord = hiddenWord.Insert(0, "*");
             }
 
+
             // Suggesting the user to guess a letter and keep doing so until all are guessed correct
 
             Console.WriteLine("Guess the word.");
